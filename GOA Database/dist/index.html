@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOA Database</title>
+    <link rel="stylesheet" href="/index.7a75a0e3.css">
+</head>
+<body>
+    <main id="main">
+        <h1>Log in</h1>
+        <form id="form">
+            <input type="text" placeholder="Name" name="name" required="">
+            <input type="text" placeholder="Lastname" name="lastname" required="">
+            <input type="password" placeholder="Password" name="pass" required="">
+            <label for="drp">Choose your role:</label>
+            <select name="role" id="drp" required="">
+                <option value="viewer">Viewer</option>
+                <option value="moderator">Moderator</option>
+            </select>
+            <input type="button" value="Log in" name="submit">
+        </form>
+    </main>
+
+    <div id="viewer">
+        <div class="head">
+            <h1>You are viewer</h1>
+            <p>You can only view information on this sheet.</p>
+        </div>
+        <div id="sheet">
+            <table>
+                <tr>
+                    <th>Parent contact</th>
+                    <th>Parent name</th>
+                    <th>Parent facebook</th>
+                    <th>Child name</th>
+                    <th>Child contact</th>
+                    <th>Child facebook</th>
+                    <th>Child age</th>
+                    <th>Child leader</th>
+                    <th>Child score</th>
+                </tr>
+                <tr>
+                    <td><a href="#">LINK</a></td>
+                    <td>Nino Grigalashvili</td>
+                    <td><a href="#">LINK</a></td>
+                    <td>Data Diasamidze</td>
+                    <td><a href="#">LINK</a></td>
+                    <td><a href="#">LINK</a></td>
+                    <td>17</td>
+                    <td>None</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td><a href="#">LINK</a></td>
+                    <td>Nino Grigalashvili</td>
+                    <td><a href="#">LINK</a></td>
+                    <td>Data Diasamidze</td>
+                    <td><a href="#">LINK</a></td>
+                    <td><a href="#">LINK</a></td>
+                    <td>17</td>
+                    <td>None</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td><a href="#">LINK</a></td>
+                    <td>Nino Grigalashvili</td>
+                    <td><a href="#">LINK</a></td>
+                    <td>Data Diasamidze</td>
+                    <td><a href="#">LINK</a></td>
+                    <td><a href="#">LINK</a></td>
+                    <td>17</td>
+                    <td>None</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td><a href="#">LINK</a></td>
+                    <td>Nino Grigalashvili</td>
+                    <td><a href="#">LINK</a></td>
+                    <td>Data Diasamidze</td>
+                    <td><a href="#">LINK</a></td>
+                    <td><a href="#">LINK</a></td>
+                    <td>17</td>
+                    <td>None</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td><a href="#">LINK</a></td>
+                    <td>Nino Grigalashvili</td>
+                    <td><a href="#">LINK</a></td>
+                    <td>Data Diasamidze</td>
+                    <td><a href="#">LINK</a></td>
+                    <td><a href="#">LINK</a></td>
+                    <td>17</td>
+                    <td>None</td>
+                    <td>100</td>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+
+    <div id="moderator">
+        <div class="head">
+            <h1>You are moderator</h1>
+            <p>You can view and edit information on this sheet.</p>
+        </div>
+        <div id="sheet">
+            <table id="table" contenteditable="">
+                <tr>
+                    <th>Parent contact</th>
+                    <th>Parent name</th>
+                    <th>Parent facebook</th>
+                    <th>Child name</th>
+                    <th>Child contact</th>
+                    <th>Child facebook</th>
+                    <th>Child age</th>
+                    <th>Child leader</th>
+                    <th>Child score</th>
+                </tr>
+                <tr>
+                    <td><a href="#">LINK</a></td>
+                    <td>Nino Grigalashvili</td>
+                    <td><a href="#">LINK</a></td>
+                    <td>Data Diasamidze</td>
+                    <td><a href="#">LINK</a></td>
+                    <td><a href="#">LINK</a></td>
+                    <td>17</td>
+                    <td>None</td>
+                    <td>100</td>
+                </tr>
+
+            </table>
+        </div>
+        <div id="plus">+</div>
+    </div>
+    
+
+    <script src="/index.44983732.js"></script>
+<script src="/GOA%20Database.59712999.js"></script></body>
+</html>
